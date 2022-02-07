@@ -1,0 +1,21 @@
+.benefits {
+  color: black;
+  background-color: rgba(247, 247, 247, 1);
+  height: 426px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-left: 140px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  &__link {
+    width: 166px;
+    height: 226px;
+  }
+}

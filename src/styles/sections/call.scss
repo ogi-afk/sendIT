@@ -1,0 +1,49 @@
+.call {
+  &__wrapper {
+    color: black;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    height: 180px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-left: 140px;
+    margin-right: 89px;
+  }
+
+  &__wrapper-2 {
+    color: white;
+    background-color: #008dcd;
+    height: 240px;
+    display: flex;
+  }
+
+  &__sub-title {
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 140px;
+  }
+  &__text {
+    font-size: 24px;
+    line-height: 23px;
+    margin-left: 140px;
+  }
+  &__phone {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 70px 12px 30px;
+    border-radius: 30px;
+    background-color: #008dcd;
+    border: 1px solid #ffffff;
+    color: white;
+  }
+  &__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

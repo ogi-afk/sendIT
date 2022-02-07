@@ -1,0 +1,21 @@
+.guarantees {
+  &__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 140px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
+  &__card:first-child {
+    margin-left: 140px;
+  }
+}

@@ -1,0 +1,22 @@
+.button {
+  color: white;
+  background-color: #008dcd;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+
+  padding: 13px 80px;
+
+  &--send {
+    margin: 35px 0px 155px 140px;
+  }
+  &--phone {
+    margin: 0px 140px 0px 0px;
+  }
+  &--yellow {
+    color: black;
+    background-color: rgba(255, 204, 0, 1);
+  }
+}

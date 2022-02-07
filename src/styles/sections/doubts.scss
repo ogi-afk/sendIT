@@ -1,0 +1,29 @@
+.doubts {
+  color: black;
+  background-color: #d2ecf7;
+  height: 416px;
+  &__title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-left: 140px;
+  }
+
+  &__link {
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 200px;
+    padding: 9px 30px;
+    width: 558px;
+    height: 55px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,26 @@
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  &__link {
+    list-style-type: none;
+  }
+  &__link:last-child {
+    margin-right: 140px;
+  }
+
+  &__item {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__item--black {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+  }
+}

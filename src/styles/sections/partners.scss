@@ -1,0 +1,15 @@
+.partners {
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  &__list:first-child {
+    margin-left: 140px;
+  }
+  &__list:last-child {
+    margin-right: 140px;
+  }
+}

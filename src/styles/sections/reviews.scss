@@ -1,0 +1,9 @@
+.reviews {
+  &__title {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  &__list {
+    display: flex;
+  }
+}
