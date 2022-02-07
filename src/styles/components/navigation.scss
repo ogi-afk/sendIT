@@ -8,6 +8,7 @@
   &__link {
     list-style-type: none;
   }
+
   &__link:last-child {
     margin-right: 140px;
   }
@@ -17,10 +18,10 @@
     color: white;
     font-size: 18px;
     line-height: 22px;
-  }
 
-  &__item--black {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 1);
+    &--black {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 1);
+    }
   }
 }

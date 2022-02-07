@@ -7,17 +7,20 @@
     justify-content: space-around;
     align-items: center;
   }
+
   &__phone {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   &__title {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
     margin-left: 140px;
   }
+
   &__phone {
     font-size: 16px;
     line-height: 19px;
@@ -53,8 +56,5 @@
     display: flex;
     list-style-type: none;
     gap: 33px;
-  }
-
-  &__link {
   }
 }
